@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Personal Portfolio website</title>
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+<!-- 	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+<header class="header">
+	<a href="#" class="logo">Portfolio</a>
+
+	<i class='bx bx-menu' id="menu-icon"></i>
+
+	<nav class="navbar">
+		<a href="#home" class="active">Home</a>
+		<a href="#about">About</a>
+		<a href="#services">OurServices</a>
+		<a href="#portfolio">LatestProject</a>
+		<a href="#contactus">Contact me</a>
+		
+	</nav>
+	
+</header>
+
+<section class="home" id="home">
+	<div class="home-content">
+	
+		<h3>Hello, This Side !</h3>
+		<h1>Ravindra Kumar</h1>
+		<h3>And I'm a <span>Frontend Developer</span></h3>
+		
+		<p>Front end development is the core field of computer science development that primarily focuses <br>on coding and building what is visible, mainly in web apps or websites. A front end developer is a person charge of designing the layout.</p>
+		<div class="social-media">
+			<a href="https://www.threads.net/@its._.mr._.pal._.01" src=""><i class="fa-brands fa-threads"></i></a>
+			<a href=""><i class="fa-regular fa-envelope"></i></a>
+			<a href="https://instagram.com/its._.mr._.pal._.01?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" ><i class='bx bxl-instagram' ></i></a>
+			<a href="https://www.linkedin.com/in/ravindra-kumar-5b1b52227"><i class='bx bxl-linkedin' ></i></a>
+		</div>
+		
+        <a href="RAVINDRA+KUMAR+RESUME.pdf" class="btn"> Download CV </a>
+	</div>
+	<div class="home-img">
+	<img src="mypic2.jpg" height="450" width="320">
+	</div>
+</section>
+
+<section class="about" id="about">
+	<div class="aboutimg">
+		<img src="./mypic2.jpg" >
+		
+	</div>
+
+	<div class="aboutcontent">
+		<h2 class="heading">About <span> Me !</span></h2>
+		<h3 ><span>Frontend</span> Developer</h3>
+		<p>Hello everyone, I am Ravindra Kumar; I am a highly motivated and ambitious individual, eager to kick-start my career in the full stack developer. As a pursuing graduate with a Bachelor of Technology [B. tech.] from Abdul Kalam Technical University [AKTU], I bring a fresh perspective, a hunger for knowledge, and a strong desire to contribute to the success of an organization.</p>
+		<a href="#" class="btn">More</a>
+	</div>	
+</section>
+
+<section class="services" id="services">
+	<h2 class="heading">Our<span>Services</span></h2>
+
+	<div class="service-container">
+		<div class="services-box">
+			<i class="bx bx-code-alt"></i>
+			<h3>Web Developement</h3>
+			<p>design with creativity and put your logics into the code so that you can develop something newdesign with creativity and put your logics into the code so that you can develop something new</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="services-box">
+			<i class="bx bx-code-alt"></i>
+			<h3>Graphic designing</h3>
+			<p>design with creativity and put your logics into the code so that you can develop something newdesign with creativity and put your logics into the code so that you can develop something new</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="services-box">
+			<i class="bx bx-code-alt"></i>
+			<h3>Android Developement</h3>
+			<p>design with creativity and put your logics into the code so that you can develop something newdesign with creativity and put your logics into the code so that you can develop something new</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		
+	</div>
+	
+</section>
+<section class="portfolio" id="portfolio">
+	<h2 class="heading">Latest<span>Project</span></h2>
+
+	<div class="portfolio-container">
+		<div class="portfolio-box">
+			<img src="number game .png" alt="">
+			<div class="portfolio-layer">
+				<h2>Web Design</h2>
+				<p>Projects</p>
+				<a href="https://github.com/ravindrakumar08696/codespaces-blank"><i class="bx bx-link-external"></i></a>
+			</div>
+		</div>
+
+		<div class="portfolio-box">
+			<img src="task2_java.png" alt="">
+			<div class="portfolio-layer">
+				<h2>Java programming</h2>
+				<p>Projects</p>
+				<a href="https://github.com/ravindrakumar08696/Task2_codsoft"><i class="bx bx-link-external"></i></a>
+			</div>
+		</div>
+		
+		<div class="portfolio-box">
+			<img src="./web d task 3.png" alt="" >
+			<div class="portfolio-layer">
+				<h2>java programming</h2>
+				<p>Projects</p>
+				<a href="https://github.com/ravindrakumar08696/Task1_codsoft"><i class="bx bx-link-external"></i></a>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+<section class="contactus" id="contactus">
+	<form >
+        <label for="name" >Name: &#20;</label>
+        <input type="text" placeholder="Enter your name" ><br><br>
+        <label for="Phone">GMail Id:</label>
+        <input type="text" placeholder="Enter your mail id" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br><br><br>
+		<!-- <input type="button" value="Send" onclick="msg(hello)"> -->
+		<center><button type="button"  onclick="alert('Are You Sure...')">Send !</button></center>
+    </form>
+		
+	</form>
+</section>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/34b88d2b0e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
